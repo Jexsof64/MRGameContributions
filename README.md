@@ -16,7 +16,7 @@ The components of the Player HUD can be found in the Canvas of the "UserInterfac
 <u1><b>Leveling System</b></u1><p>
 The leveling system is comprised of the "Player" and "Level" scripts located in "Assets/Scripts" and within Unity is attached to the 'Player' object in the Hierarchy within "SampleScene" of "Assets/Scenes".
 
-<u1><b>Melee Enemy (So Far)<b></u1><p>
+<u1><b>Melee Enemy (So Far)</b></u1><p>
 The Melee Enemy is composed of the Melee Enemy Model, 'Canvas (Enemy UI)', and has the "MeleeEnemy" script attached to it. Enemy UI uses the "Billboard" scripts to have the UI face the Player. Since I was unable to manage to get animations to work fully with the model it is recommended to copy or replicate the Hierarchy Components on a different GameObject to retain functionality.
 
 UI for enemies in general should be in the "UserInterface" scene.
