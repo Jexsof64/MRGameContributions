@@ -10,6 +10,15 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
+    public void GameOver()
+    {
+        SceneManager.LoadScene("GameOverScreen");
+    }
+    public void QuitToMain()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void QuitGame()
     {
         Debug.Log("You just Quitted the game.");
